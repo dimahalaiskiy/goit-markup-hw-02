@@ -67,7 +67,8 @@ body {
 
 
 .social-links-list-link:hover,
-.social-links-list-link:focus {
+.social-links-list-link:focus,
+.is-current {
     color: #2196F3;
 }
 

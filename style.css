@@ -9,8 +9,9 @@ body {
 .container-menu {
     background-color: #FFFFFF;
     max-width: 1170px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .list {
@@ -23,7 +24,7 @@ body {
 }
 
 .logo-style {
-    margin: 25px 0 25px 115px;
+    margin: 25px 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -316,4 +317,87 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* !!!!! PORTFOLIO !!!!! */ 
+.header-border {
+    border-top: 1px solid #ECECEC;
+}
+
+.catalog-button {
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
+.catalog-button-list {
+    margin-top: 94px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    max-width: 516;
+}
+
+.catalog-button-list-item {
+    margin-left: 8px;
+}
+.portfolio-cataloge-buttom {
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.65;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    border: none;
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.portfolio-cataloge-buttom:hover,
+.portfolio-cataloge-buttom:focus {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
+}
+
+.catalog-list {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 94px;
+}
+
+.catalog-list-item {
+    margin-top: 30px;
+}
+
+.catalog-border-list-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.catalog-list-item-heading {
+    margin-left: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.catalog-list-item-paragraph {
+    margin-left: 24px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }

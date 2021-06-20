@@ -300,14 +300,23 @@ body {
     color: #FFFFFF;
 }
 
+.footer-list-link:hover,
+.footer-list-link:focus {
+    color: #2196F3;
+}
+
 .footer-list-link-adress {
     font-weight: normal;
     font-size: 14px;
     line-height: 1.77;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-
 } 
+
+.footer-list-link-adress:hover,
+.footer-list-link-adress:focus {
+    color: #2196F3;
+}
 .footer-list-link{
     font-weight: 400;
     font-size: 14px;
